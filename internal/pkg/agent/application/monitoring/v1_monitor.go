@@ -55,7 +55,7 @@ const (
 
 	// metricset execution period used for the monitoring metrics inputs
 	// we set this to 60s to reduce the load/data volume on the monitoring cluster
-	metricsCollectionInterval = 60 * time.Second
+	metricsCollectionInterval = 1 * time.Second
 )
 
 var (
